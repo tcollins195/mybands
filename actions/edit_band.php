@@ -15,7 +15,12 @@ $f = fopen('../data/bands.csv', 'w'); // a+ for append
 fwrite($f, $data_string);
 fclose($f);
 
-$_SESSION['message'] = 'Your band has been edited.';
+$_SESSION['message'] = array(
+	'text' => 'Your band has been edited.',
+	'type' => 'info'		
+); 
+
+
 
 // Redirect to the main page
 header('Location:../?p=list_bands');
