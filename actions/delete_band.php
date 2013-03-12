@@ -1,7 +1,6 @@
-<pre>$_POST: <?php print_r($_POST)?></pre>
-<pre>$_GET: <?php print_r($_GET)?></pre>
-
 <?php 
+session_start();
+
 // Read file into array
 $lines = file('../data/bands.csv',FILE_IGNORE_NEW_LINES);
 

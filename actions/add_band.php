@@ -1,8 +1,4 @@
 <?php session_start() ?>
-
-
-<!-- <pre><?php print_r($_POST) ?></pre> -->
-
 <?php
 // Validate that each piece of info was provided
 if($_POST['band_name'] != '' && 

@@ -20,7 +20,7 @@
 			<?php echo input('band_numalbums', 'required')?>
 			<!-- <input type="text" name="band_numalbums" placeholder="required" /> -->
 		</div>
-	</div>
+	</div>	
 	<div class="form-actions">
 		<button type="submit" class="btn btn-primary"><i class="icon-plus-sign icon-white"></i> Add Band</button>
 		<button type="button" class="btn">Cancel</button>
